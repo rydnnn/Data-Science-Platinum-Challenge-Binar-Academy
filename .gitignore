@@ -1,0 +1,82 @@
+# ========================
+# Python
+# ========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# ========================
+# Machine Learning Models
+# ========================
+
+# Model files besar — generate ulang via notebook
+# Jika ingin include, pertimbangkan Git LFS
+Model_LSTM/model_LSTM.h5
+Model_MLP/model_MLP.pickle
+
+# Pickle files (opsional — uncomment jika tidak perlu di-repo)
+# *.pickle
+# *.pkl
+
+# ========================
+# Database (auto-generated saat runtime)
+# ========================
+
+*.sqlite
+*.sqlite3
+*.db
+db_alay.sqlite
+
+# ========================
+# File duplikat di root
+# ========================
+
+# File-file ini duplikat dari folder masing-masing
+text_preprocessing.pickle
+train_preprocess.tsv.txt
+
+# ========================
+# Jupyter Notebook
+# ========================
+
+.ipynb_checkpoints/
+
+# ========================
+# Environment & Secrets
+# ========================
+
+.env
+.env.local
+*.env
+
+# ========================
+# Editor & OS
+# ========================
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VSCode
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+
+# ========================
+# Logs & output
+# ========================
+
+*.log
+logs/
