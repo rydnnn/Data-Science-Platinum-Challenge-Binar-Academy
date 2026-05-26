@@ -18,7 +18,6 @@
 |------|------|
 | Riyadi Nugroho | Data Scientist |
 | Khoirul Anam | Data Scientist |
-| Ursula Andrea | Data Scientist |
 
 ---
 
